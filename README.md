@@ -1,20 +1,24 @@
-
 # Python Task Manager
 
-A simple task management application built using Python.
+A simple command-line task management application built using Python.this project alows users to orgaise tasks, set priorities and due dates, and track their progress.
 
 ## Features
 
-- Add new tasks
-- View all tasks
-- Mark tasks as completed
-- Delete tasks
-- Save tasks using JSON
-- Keep tasks saved after closing the program
+- **Add tasks** with task name, priority and due date
+- **View tasks** with their status, priority, and due date
+- **Complete tasks** to track progress
+- Delete tasks when they are no longer needed
+- **Delete tasks** when they are no longer needed.
+- **Search tasks** by name
+- **Filter tasks** by priority or completion status
+- **Sort tasks** by due date (earliest to latest or latest to earliest)
+- **Choose a priority** to display matching High, Medium, or Low priority tasks
+- **Save tasks automatically** after closing the program, so tasks remain available when the program is restarted.
 
 ## Requirements
 
-- Python 3
+- Python 3 installed
+- Visual Studio Code or another Python editor
 
 ## How to Run
 
@@ -25,13 +29,16 @@ A simple task management application built using Python.
 ```bash
 python main.py
 ```
+4. If your system uses python3 command run:
+python 3 main.py 
+Follow the menu instructions in the terminal.
 
 ## Technologies Used
 
 - Python
-- JSON
-- Git
-- GitHub
+- JSON for local storage
+- 'datetime' for data validation
+- Git and GitHub
 
 ## Project Purpose
 
